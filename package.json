@@ -1,0 +1,24 @@
+{
+  "name": "gridcss-nextjs",
+  "version": "1.0.0",
+  "description": "npm install react@latest next@latest react-dom@latest",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.6",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "gh-pages": "^6.3.0",
+    "typescript": "5.7.3"
+  }
+}
