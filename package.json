@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d .next"
   },
   "keywords": [],
   "author": "",
@@ -24,5 +24,5 @@
     "gh-pages": "^6.3.0",
     "typescript": "5.7.3"
   },
-  "homepage": "https://bp4sp4.github.io/GridCSS/"
+  "homepage": "https://bp4sp4.github.io/GridCSS"
 }
