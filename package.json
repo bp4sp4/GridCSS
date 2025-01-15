@@ -4,7 +4,9 @@
   "description": "npm install react@latest next@latest react-dom@latest",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +22,6 @@
     "@types/react-dom": "^19.0.3",
     "gh-pages": "^6.3.0",
     "typescript": "5.7.3"
-  }
+  },
+  "homepage": "https://bp4sp4/github.com/bp4sp4/GridCSS/"
 }
