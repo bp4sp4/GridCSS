@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "npm install react@latest next@latest react-dom@latest",
   "main": "index.js",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d .next"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bp4sp4/GridCSS"
   },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build && next export",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d out"
+},
   "keywords": [],
   "author": "",
   "license": "MIT",
