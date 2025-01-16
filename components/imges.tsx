@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import imagePaths from "../../jsondata/imagePaths.json";
-import styles from "../css/image.module.css";
+import styles from "../../app/styles/image.module.css";
 
 export default function Images() {
   useEffect(() => {
