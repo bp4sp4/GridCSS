@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "",
-  assetPrefix: "",
+  basePath: "/GridCSS",
+  assetPrefix: "/GridCSS/",
 };
 
 module.exports = nextConfig;

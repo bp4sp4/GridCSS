@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import imagePaths from "../jsondata/imagePaths.json";
-import styles from "../styles/image.module.css";
+import styles from "../public/styles/image.module.css";
 
 export default function Images() {
   useEffect(() => {
@@ -49,7 +49,12 @@ export default function Images() {
     <div className={styles.grid__wrapper}>
       {imagePaths.images.map((image, index) => (
         <div key={index}>
-          <img className={styles.img} src={image.path} alt={`Image ${index}`} />
+          <img
+            className={styles.img}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${image.path}`}
+            alt={`Image ${index}`}
+          />
+
           <button
             className={styles.download_btn}
             onClick={() => downloadImage(image.path)}
