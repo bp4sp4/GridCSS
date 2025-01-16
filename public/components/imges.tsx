@@ -1,12 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
-import imagePaths from "../jsondata/imagePaths.json";
-import styles from "../public/styles/image.module.css";
+import imagePaths from "../../jsondata/imagePaths.json";
+import styles from "../styles/image.module.css";
 
 export default function Images() {
   useEffect(() => {
-    // 모든 grid item 가져오기
     const items: NodeListOf<HTMLDivElement> = document.querySelectorAll(
       `.${styles.grid__wrapper} > div`
     );

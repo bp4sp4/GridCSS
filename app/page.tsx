@@ -1,4 +1,4 @@
-import Images from "../components/imges";
+import Images from "../public/components/imges";
 import "../public/styles/global.css";
 import styles from "../public/styles/main.module.css";
 
