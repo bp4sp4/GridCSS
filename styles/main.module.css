@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Shilla_CultureB-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/Shilla_CultureB-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    padding: 1rem 1rem 2.5rem 1rem;
+    font-family: 'Shilla_CultureB-Bold';
+    color: white;
+}
