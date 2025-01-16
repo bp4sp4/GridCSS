@@ -1,6 +1,6 @@
 import Images from "../public/components/imges";
-import "../public/styles/global.css";
-import styles from "../public/styles/main.module.css";
+import "../public/static/styles/global.css";
+import styles from "../public/static/styles/main.module.css";
 
 export default function Tomato() {
   return (
