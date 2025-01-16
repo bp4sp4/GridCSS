@@ -51,7 +51,7 @@ export default function Images() {
         <div key={index}>
           <img
             className={styles.img}
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${image.path}`}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}${image.path}`}
             alt={`Image ${index}`}
           />
 
