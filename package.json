@@ -7,12 +7,12 @@
     "type": "git",
     "url": "https://github.com/bp4sp4/GridCSS"
   },
-"scripts": {
-  "dev": "next dev",
-  "build": "next build && next export",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d out"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "predeploy": "npm run build",
+    "deploy": "next build && touch out/.nojekyll && git add -f out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
